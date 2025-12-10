@@ -1,5 +1,8 @@
-node_modules/
-dist/
-.env
-*.log
 .DS_Store
+node_modules
+.idea
+package-lock.json
+/build
+.vscode/
+.idea/
+vite.config.*s.*
