@@ -1,5 +1,5 @@
 import express, { Router } from 'express';
-import { getToken, getAccountProfile, getContactInformation } from '../controllers/AuthController';
+import { getToken, getAccountProfile, getContactInformation } from '../controllers/AuthController.js';
 
 const router: Router = express.Router();
 

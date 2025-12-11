@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import authRoute from "./routes/authRoute";
-import productRoute from "./routes/productRoute";
+import authRoute from "./routes/authRoute.js";
+import productRoute from "./routes/productRoute.js";
 
 // Load environment variables (works for both local and Vercel)
 dotenv.config();

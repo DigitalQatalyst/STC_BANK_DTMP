@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { fetchAllProducts, fetchProductById, fetchProductsByMarketplace } from '../services/productServices';
+import { fetchAllProducts, fetchProductById, fetchProductsByMarketplace } from '../services/productServices.js';
 
 interface ProductRequestBody {
   token: string;
