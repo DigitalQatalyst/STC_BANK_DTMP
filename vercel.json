@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "framework": "vite",
-  "buildCommand": "npm run build",
-  "outputDirectory": "build",
   "builds": [
     {
       "src": "src/index.ts",
@@ -13,13 +10,6 @@
     {
       "src": "/api/v1/(.*)",
       "dest": "src/index.ts"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
