@@ -40,10 +40,7 @@ app.use(
 
 app.use(express.json());
 
-app.get("/", (_req: Request, res: Response) => {
-  res.send("Hello World!");
-});
-
+// API routes
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/products", productRoute);
 
